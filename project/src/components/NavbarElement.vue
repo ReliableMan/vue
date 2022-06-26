@@ -1,16 +1,15 @@
 <template>
 
-  <nav class="navbar navbar-light container " style="background-color: #2272b3a8;">
+  <nav class="navbar navbar-light nv " style="background-color: #2272b3a8;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Автосервис РФ</a>
+    <router-link class="navbar-brand" to="/about">Автосервис РФ</router-link>
+    <router-link class="navbar-brand" to="/">Домой</router-link>
+    <router-link class="navbar-brand" to="/items">Список доступных запчастей</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Домой</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Список
@@ -45,6 +44,10 @@ export default {
 
 <style scoped>
 
+.nv {
+  margin-left: 50px;
+  max-width: 1600px;
+}
   
 
 </style>

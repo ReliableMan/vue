@@ -1,6 +1,6 @@
 <template>
 
-  <div id="carouselExampleIndicators1" class="carousel slide container bd" data-bs-ride="carousel ">
+  <div id="carouselExampleIndicators1" class="carousel slide container bd" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,7 +17,7 @@
       <img src="https://sovcominvest.ru/uploads/photo/13145/image/0eb1144d7a84b80837e43c9ed5bcd70d.jpg" class="d-block w-100" alt="автосервис">
     </div>
     <div class="carousel-item">
-      <img src="https://avatars.mds.yandex.net/get-altay/1551063/2a000001679c9b1395cbb39f0e875df5be9b/XXXL" class="d-block w-100" alt="механик">
+      <img src="https://5koleso.ru/wp-content/uploads/2021/02/diagnosing-great-egr-error-code-2048x1365.jpg" class="d-block w-100" alt="механик">
     </div>
     <div class="carousel-item">
       <img src="https://lab-clean.ru/wp-content/uploads/2019/02/shutterstock_1056454853-min.jpg" class="d-block w-100" alt="химчистка">
@@ -47,7 +47,7 @@ export default {
 <style scoped>
 
 .bd{
-  max-width: 600px
+  max-width: 700px
 }
 
 </style>
