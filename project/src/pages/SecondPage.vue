@@ -16,11 +16,11 @@
     <br/> -->
       <div class="second-main">
         <div class="card border-info mb-5"  v-for="item in items" :key="item.id" style="max-width: 500px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img v-bind:src='item.picture' class="img-fluid" alt="фото" >
-            </div>
-                  <div class="col-md-8">
+          
+           
+              <img v-bind:src='item.picture' class="card-img-top picture" alt="фото">
+           
+                  <div class="col-md-8" style="width: 502px;">
                     <div class="card-body">
                       <h5 class="card-header">Модель {{item.title}}</h5>
                       <p class="card-text"> <strong>Описание:</strong> {{item.body}}</p>
@@ -36,7 +36,7 @@
                       <p class="card-text"><strong>Объем двигателя: </strong>{{item.engine_volume}} л</p>
                     </div>
                   </div>
-          </div>
+         
         </div>
         
       </div>
@@ -61,7 +61,7 @@ export default {
       {id: 7, title: 'RB26DETT', body: 'Чугунный шестицилиндровый блок цилиндров и алюминиевая головка блока с четырьмя клапанами на цилиндр. Шесть дроссельных заслонок и параллельно действующие турбонагнетатели (каждый обслуживает три цилиндра) с вейстгейтами, ограничивающими давление наддува 0,69 бара', vendor_code: 124321000, brand: 'NISSAN', hp: 280, torque: 392, engine_volume: 2.6, picture: 'https://i.ytimg.com/vi/kx3so1AAmfw/maxresdefault.jpg'},
       {id: 8, title: 'SR20DET', body: 'Алюминиевый блок цилиндров с чугунными сухими гильзами. Головка блока цилиндров алюминиевая с двумя распределительными валами и 4 клапанами на цилиндр. Привод газораспределительного механизма осуществляется через цепь. Оснащены электронным впрыском топлива и многоточечной системой впрыска.', vendor_code: 124321001, brand: 'NISSAN', hp: 230, torque: 284, engine_volume: 2, picture: 'https://jdmofsandiego.com/wp-content/uploads/2018/09/SR20-redtop-140256W-2-768x919.jpg'},
       {id: 9, title: 'F20C/F22C', body: 'F20C и F22C1 имеют два верхних кулачка с роликовыми толкателями, элемент жесткости главного подшипника лестничной рамы, систему VTEC для впускного и выпускного распредвала, армированные волокном металлические гильзы цилиндров.', vendor_code: 124321003, brand: 'NISSAN', hp: 250, torque: 218, engine_volume: 2, picture: 'https://www.automachi.com/wp-content/uploads/2019/09/used-honda-s2000-engine.jpg'},
-      {id: 10, title: '13B-REW', body: 'Роторные двигатели Mazda имели репутацию относительно небольшого и мощного двигателя c низко-эффективным расходом топлива.', vendor_code: 124321004, brand: 'MAZDA', hp: 280, torque: 314, engine_volume: 1.3, picture: 'https://a.d-cd.net/GYAAAgF1k-A-1920.jpg'},
+      {id: 10, title: '13B-REW', body: 'Роторные двигатели Mazda имели репутацию относительно небольшого и мощного двигателя c низко-эффективным расходом топлива.', vendor_code: 124321004, brand: 'MAZDA', hp: 280, torque: 314, engine_volume: 1.3, picture: 'https://i.pinimg.com/originals/6f/30/d1/6f30d13147d701788c7448f17b3f3163.jpg'},
       {id: 12, title: '4G63T', body: 'Четырёхцилиндровый рядный бензиновый двигатель объёмом 1997 см3 с турбонаддувом и механизмом газораспределения DOHC.', vendor_code: 124321005, brand: 'MITSUBISHI', hp: 280, torque: 382, engine_volume: 2, picture: 'https://avatars.mds.yandex.net/get-zen_doc/1781308/pub_5d3a07488600e100ac940e43_5d3a08f3e854a900ad7c902c/scale_1200'},
       {id: 13, title: 'S65B40', body: 'Разрабатывался этот мотор на базе S85B50 путем удаления двух цилиндров от V10 и превращения его в V8, с рабочим объемом 4 литра. Блок цилиндров по конструкции такой же, как на S85, с межцилиндровым расстоянием 98 мм, шатуны и поршни такие же, как на М5 моторе.', vendor_code: 124321006, brand: 'BMW', hp: 420, torque: 400, engine_volume: 4, picture: 'https://mirgm.ru/wp-content/uploads/2017/08/1-35.jpg'},
       {id: 14, title: '911 Turbo', body: 'В 2009 году состоялся дебют 3,8-литрового оппозитного двигателя, у которого для подачи воздуха в цилиндры использовались два нагнетателя с изменяемой геометрией турбин', vendor_code: 124321007, brand: 'PORSHE', hp: 700, torque: 750, engine_volume: 3.8, picture: 'https://press.ru.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent&attachmentid=1773097&show=1'},
@@ -118,5 +118,9 @@ export default {
 }
 .select{
   
+}
+.picture {
+  width: 497px;
+  height: 400px
 }
 </style>

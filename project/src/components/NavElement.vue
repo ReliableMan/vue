@@ -50,6 +50,22 @@
       </div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+         Обслуживание кондиционера
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul><strong>Обслуживание кондиционера автомобиля:</strong></ul> 
+        <li>заправка кондиционера хладагентом (фреоном);</li>
+        <li>долив масла для компрессора кондиционера;</li>
+        <li>дезинфекция системы кондиционирования для удаления бактерий и грибков;</li>
+        <li>при необходимости выполняется ремонт системы.</li>
+      </div>
+    </div>
+  </div>
 </div>
 
  

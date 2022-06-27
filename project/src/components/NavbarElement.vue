@@ -45,7 +45,8 @@ export default {
 <style scoped>
 
 .nv {
-  margin-left: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
   max-width: 1600px;
 }
   
