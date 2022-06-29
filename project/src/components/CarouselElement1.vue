@@ -1,6 +1,6 @@
 <template>
-
-  <div id="carouselExampleIndicators1" class="carousel slide container bd" data-bs-ride="carousel">
+   <div class="bd">
+  <div id="carouselExampleIndicators1" class="carousel slide container" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -35,7 +35,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
 </template>
 
 <script>
@@ -47,7 +47,7 @@ export default {
 <style scoped>
 
 .bd{
-  max-width: 700px
+  max-width: 500px
 }
 
 </style>

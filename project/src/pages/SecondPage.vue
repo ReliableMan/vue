@@ -2,24 +2,29 @@
 <div class="second">
 
     <h4>В продаже на {{localeDate}}</h4>
+
     <div class="btns">
-      <button @click="sortedVendor_code">Сортировка по артикулу</button>
-      <button @click="sortedHp" style="marginLeft:15px">Сортировка по мощности</button>
-      <button @click="sortedTorque" style="marginLeft:15px">Сортировка по крутящему моменту</button>
-
-
-     
+      <div class="btn-group dropend">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+      Сортировка по
+    </button>
+    <ul class="dropdown-menu">
+      
+      <li @click="sortedVendor_code" style="marginLeft:15px"> артикулу</li>
+      <hr/>
+      <li @click="sortedHp" style="marginLeft:15px"> мощности</li>
+      <hr/>
+      <li @click="sortedTorque" style="marginLeft:15px"> крутящему моменту</li>
+    </ul>
+  </div>
     </div>
-    <!-- <span><p>Сортировка по </p><button type="button" class="btn btn-primary">Primary</button> || 
-    <button type="button" class="btn btn-primary">Primary</button> ||
-    <button type="button" class="btn btn-primary">Primary</button>  </span>
-    <br/> -->
+    
+    
       <div class="second-main">
         <div class="card border-info mb-5"  v-for="item in items" :key="item.id" style="max-width: 500px;">
           
-           
               <img v-bind:src='item.picture' class="card-img-top picture" alt="фото">
-           
+
                   <div class="col-md-8" style="width: 502px;">
                     <div class="card-body">
                       <h5 class="card-header">Модель {{item.title}}</h5>
@@ -40,14 +45,18 @@
         </div>
         
       </div>
-
+<footer-element></footer-element>
 </div>
   
 </template>
 
 <script>
-
+import FooterElement from '@/components/FooterElement';
 export default {
+  components: {
+    FooterElement
+  },
+
    data() {
       return {
         items : [
@@ -103,6 +112,7 @@ export default {
   margin-top: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 .second-main{
@@ -115,9 +125,7 @@ export default {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 15px;
-}
-.select{
-  
+  cursor: pointer;
 }
 .picture {
   width: 497px;
