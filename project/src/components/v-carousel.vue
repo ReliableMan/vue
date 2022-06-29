@@ -10,10 +10,7 @@
         />
 
       </div>
-    <div class="btns_carousel">
-      <button @click="prevSlide" type="button" class="btn btn-secondary">Prev</button>
-      <button @click="nextSlide"  type="button" class="btn btn-secondary leftbtn">Next</button>
-      </div>
+   
     </div>
 
 </template>

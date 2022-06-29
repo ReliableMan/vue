@@ -11,19 +11,19 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" >
-      <img src="https://plazavolgograd.ru/wp-content/uploads/2017/02/DSC_1927-40.jpg" class="d-block w-100" alt="работники">
+      <img src="" class="d-block w-100" alt="работники">
     </div>
     <div class="carousel-item">
-      <img src="https://sovcominvest.ru/uploads/photo/13145/image/0eb1144d7a84b80837e43c9ed5bcd70d.jpg" class="d-block w-100" alt="автосервис">
+      <img src="" class="d-block w-100" alt="автосервис">
     </div>
     <div class="carousel-item">
-      <img src="https://5koleso.ru/wp-content/uploads/2021/02/diagnosing-great-egr-error-code-2048x1365.jpg" class="d-block w-100" alt="механик">
+      <img src="" class="d-block w-100" alt="механик">
     </div>
     <div class="carousel-item">
-      <img src="https://lab-clean.ru/wp-content/uploads/2019/02/shutterstock_1056454853-min.jpg" class="d-block w-100" alt="химчистка">
+      <img src="" class="d-block w-100" alt="химчистка">
     </div>
     <div class="carousel-item">
-      <img src="https://static.tildacdn.com/tild6233-3230-4766-b132-636339376533/8dbae9f2506225a27054.jpeg" class="d-block w-100" alt="мойка">
+      <img src="" class="d-block w-100" alt="мойка">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
