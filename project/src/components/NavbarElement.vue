@@ -4,7 +4,7 @@
   <div class="container-fluid">
     <router-link class="navbar-brand nv1" to="/about">Автосервис РФ</router-link>
     <router-link class="navbar-brand nv1" to="/">Домой</router-link>
-    <router-link class="navbar-brand nv1" to="/items">Список доступных запчастей</router-link>
+    <router-link class="navbar-brand nv1" to="/items">Топ двигателей</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,21 +44,22 @@ export default {
   margin-left: 200px;
   margin-right: 200px;
   max-width: 1600px;
-
 }
+
 .nv1 {
   font-size: 20px;
 }
 
 @media (min-width: 635px) and (max-width: 1000px){
+
   .nv1 {
   font-size: 15px;
-}
+  }
 }
 @media (min-width: 300px) and (max-width: 634px){
   .nv1 {
   visibility: hidden;
-}
+  }
 }
 
 </style>

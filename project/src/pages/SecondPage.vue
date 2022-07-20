@@ -9,23 +9,21 @@
       Сортировка по
     </button>
     <ul class="dropdown-menu">
-      
-      <li @click="sortedVendor_code" style="marginLeft:15px"> артикулу</li>
-      <hr/>
-      <li @click="sortedHp" style="marginLeft:15px"> мощности</li>
-      <hr/>
-      <li @click="sortedTorque" style="marginLeft:15px"> крутящему моменту</li>
+      <li @click="sortedVendor_code" class="dropdown-menu_li"> артикулу</li>
+      <li @click="sortedHp" class="dropdown-menu_li"> мощности</li>
+      <li @click="sortedTorque" class="dropdown-menu_li"> крутящему моменту</li>
     </ul>
   </div>
+  <button type="button" class="btn btn-secondary">списком</button>
     </div>
     
     
-      <div class="second-main">
-        <div class="card border-info mb-5"  v-for="item in items" :key="item.id" style="max-width: 500px;">
+      <div class="second-main" :class="{ list: isActive }">
+        <div class="card border-info mb-5"  v-for="item in items" :key="item.id">
           
-              <img v-bind:src='item.picture' class="card-img-top picture" alt="фото">
+              <img :src='item.picture' class="card-img-top picture" alt="фото">
 
-                  <div class="col-md-8" style="width: 502px;">
+                  <div class="col-md-8 _card">
                     <div class="card-body">
                       <h5 class="card-header">Модель {{item.title}}</h5>
                       <p class="card-text"> <strong>Описание:</strong> {{item.body}}</p>
@@ -78,6 +76,7 @@ export default {
       {id: 16, title: 'GM LS7', body: 'LS7 оснащен кованым коленчатым валом, титановыми шатунами и уникальными алюминиевыми поршнями. Классическая конструкция толкателя с двумя клапанами на цилиндр по-прежнему делает LS7 лучшим мотором среди новых и старых моторов.', vendor_code: 124321009, brand: 'GENERAL MOTORS', hp: 505, torque: 637, engine_volume: 7, picture: 'http://images.gtcarlot.com/pictures/58046870.jpg'},
      ],
       date: 1580558031264,
+      isActive: false,
     }
    },
    methods: {
@@ -114,21 +113,41 @@ export default {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
+} 
+
 .second-main{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.list{
+  display: flex;
+  flex-direction: column;
+}
+
 .btns{
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 15px;
   cursor: pointer;
 }
+
 .picture {
   width: 497px;
   height: 400px
 }
+
+.dropdown-menu_li{
+  margin-left: 25px
+}
+
+.dropdown-menu_li:hover {
+  color:brown
+}
+
+._card{
+  width: 490px
+}
+
 </style>

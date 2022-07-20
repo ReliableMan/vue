@@ -6,27 +6,31 @@
       :carousel_data="sliderItems"
       :interval="2000"
       />
+
       <p class="text_ab_p_elem_p">На нашем счету около 2000 успешно выполненных ремонтов. 
         Мы используем технологически сложное оборудование, позволяющее заранее определять какой узел автомобиля наиболее уязвим. 
         Это помогает заранее предотвратить поломку автомобиля.<br/> Из нашей практики можем сделать вывод: <strong>своевременное плановое ТО</strong> 
         помогает качественно следить за автомобилем, избегать лишних эмоциональных переживаний и финансовых трат. 
         <br/> В нашем распоряжении штат квалифицированных специалистов, обладающих богатым опытом. 
       </p>
+
       <hr/>
-      <p class="text_ab_p_elem_p">
+
+      <div class="text_ab_p_elem_p">
         <strong>Как происходит ремонт Вашего автомобиля?</strong>
-        <ul>
             <li>визуальный осмотр</li>
             <li>программная диагностика всех узлов на наличие дефектов</li>
             <li>составление списка неисправностей</li>
             <li>согласование с вами используемых ремонтных материалов</li>
             <li>ремонт и тестирование</li>
-        </ul>
-      </p>
+      </div>
+
       <hr/>
+    
     <p class="text_ab_p_elem_p">
       Если у вас остались вопросы позвоните нам, наш телефон 8(990) 900-90-90.
     </p>
+    
     </div>
    <footer-element></footer-element>
   </div>
@@ -66,13 +70,16 @@ export default {
     margin-bottom: 15px;
     text-align: center;
   }
+
   .text_ab_p_elem_p{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
   .flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 </style>

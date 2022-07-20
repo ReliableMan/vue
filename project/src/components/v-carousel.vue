@@ -67,18 +67,21 @@ export default {
     max-width: 500px;
     overflow: hidden;
     margin: 0 auto;
-  
   }
+  
   .v-carousel{
     display: flex;
     transition: all ease 0.7s;
   }
+
   .btns_carousel{
     padding-bottom: 9px;
     display: flex;
     justify-content: center
   }
+
   .leftbtn{
     margin-left: 15px;
   }
+  
 </style>

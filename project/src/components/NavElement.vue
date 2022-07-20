@@ -9,11 +9,12 @@
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <ul><strong>Обслуживание двигателя автомобиля включает в себя:</strong></ul> 
+        <ul><strong>Обслуживание двигателя автомобиля включает в себя:</strong>
         <li>очистку ДВС и навесных агрегатов от загрязнений, удаление смолистых отложений масел, нагара;</li>
         <li>проверку и подтяжку резьбовых соединений;</li>
         <li>замену масла и тосола/антифриза, фильтров в топливной, масляной и воздушной системах;</li>
         <li>регулировку при необходимости.</li>
+        </ul> 
       </div>
     </div>
   </div>
@@ -25,11 +26,12 @@
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <ul><strong>Обслуживание тормозной системы автомобиля включает в себя:</strong></ul> 
+         <ul><strong>Обслуживание тормозной системы автомобиля включает в себя:</strong> 
         <li>замена колодок и дисков;</li>
         <li>очистка и смазка тормозных суппортов;</li>
         <li>проверка и замена тормозной жидкости;</li>
         <li>обработка прилегающих поверхностей антипригарными составами, защита тормозных шлангов.</li>
+        </ul>
       </div>
     </div>
   </div>
@@ -41,12 +43,13 @@
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         <ul><strong>Обслуживание ходовой системы автомобиля включает в себя:</strong></ul> 
+         <ul><strong>Обслуживание ходовой системы автомобиля включает в себя:</strong>
         <li>периодическую проверку и регулировку углов установки передних колес;</li>
         <li>проверку зазоров в подшипниках ступиц передних и задних колес и шкворневых соединениях передней подвески;</li>
         <li>проверку состояния рамы и рессорной подвески, включая амортизаторы;</li>
         <li>проверку состояния шин и создание нормального внутреннего давления воздуха в них;</li>
         <li>крепление и смазку деталей ходовой части.</li>
+        </ul> 
       </div>
     </div>
   </div>
@@ -58,11 +61,12 @@
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <ul><strong>Обслуживание кондиционера автомобиля:</strong></ul> 
+        <ul><strong>Обслуживание кондиционера автомобиля:</strong> 
         <li>заправка кондиционера хладагентом (фреоном);</li>
         <li>долив масла для компрессора кондиционера;</li>
         <li>дезинфекция системы кондиционирования для удаления бактерий и грибков;</li>
         <li>при необходимости выполняется ремонт системы.</li>
+        </ul>
       </div>
     </div>
   </div>

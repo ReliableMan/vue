@@ -13,7 +13,6 @@
     />
     </div>
     
-
     <text-element class="text-el"/>
     <nav-element class="nav-el"/>
   </div>
@@ -63,35 +62,36 @@ export default {
 
 .main{
   padding-top: 50px;
-  
 }
+
 .flex {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .carousel{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .text-el{
   margin-top: 50px;
   max-width: 1000px
 }
+
 .nav-el{
-   margin-top: 50px;
-   margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 600px) and (max-width: 1200px) {
-  
-  .carousel {
-   display: flex;
-  flex-direction: column;
-  
 
-}
+ .carousel {
+ display: flex;
+ flex-direction: column;
+ }
 }
 
 </style>

@@ -17,9 +17,11 @@ export default {
 </script>
 
 <style scoped>
+
   img{
     width: 500px;
     height: 350px;
     border: 4px solid #2272b3a8;
   }
+  
 </style>
